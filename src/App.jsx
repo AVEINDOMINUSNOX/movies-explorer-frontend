@@ -8,6 +8,7 @@ import Movies from './components/Movies/Movies';
 import Profile from './components/Auth/Profile/Profile';
 import Register from './components/Auth/Register/Register';
 import SavedMovies from './components/SavedMovies/SavedMovies';
+import Footer from './components/Common/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/signin" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
+      <Footer />
     </>
   );
 }
