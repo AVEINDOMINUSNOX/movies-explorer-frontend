@@ -3,6 +3,8 @@ import React from 'react';
 import Promo from '../Main/Promo/Promo';
 import AboutProject from '../Main/AboutProject/AboutProject';
 import Techs from '../Main/Techs/Techs';
+import AboutMe from './AboutMe/AboutMe';
+import Portfolio from './Portfolio/Portfolio';
 
 import './Main.scss';
 
@@ -12,6 +14,8 @@ const Main = () => {
       <Promo />
       <AboutProject />
       <Techs />
+      <AboutMe />
+      <Portfolio />
     </>
   );
 };
